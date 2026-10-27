@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- ===== HEADER / HERO ===== -->
+  <header class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="greeting">👋 Hello, I'm</p>
+        <h1 class="name">Riya Agrawal</h1>
+        <p class="tagline">First Year Student &nbsp;|&nbsp; Aspiring Developer</p>
+
+        <div class="info-cards">
+          <div class="info-card">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <span class="label">E-Mail</span>
+              <span class="value">riya.agrawal@example.com</span>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <span class="label">Address</span>
+              <span class="value">Mumbai, Maharashtra, India</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Profile Photo (top-right) -->
+      <div class="hero-photo">
+        <div class="photo-wrapper">
+          <img
+            src="https://via.placeholder.com/200x200/87CEEB/ffffff?text=Photo"
+            alt="Profile Photo"
+            class="profile-img"
+          />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="container">
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="section-header">
+        <i class="fa-solid fa-user section-icon"></i>
+        <h2>About Me</h2>
+      </div>
+      <div class="section-body">
+        <p>
+          Hi! I'm a passionate first-year student pursuing my Bachelor's degree. I love learning
+          new technologies, solving problems, and building creative projects. I am enthusiastic
+          about web development, programming, and exploring the world of computer science.
+          I believe in continuous learning and am always eager to take on new challenges
+          that help me grow both personally and professionally.
+        </p>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="section" id="achievements">
+      <div class="section-header">
+        <i class="fa-solid fa-trophy section-icon"></i>
+        <h2>Achievements</h2>
+      </div>
+      <div class="section-body">
+        <ul class="achievement-list">
+          <li>
+            <span class="badge">🥇</span>
+            <div>
+              <strong>1st Rank in School Farewell Quiz</strong>
+              <p>Secured first place in a competitive quiz conducted during school farewell (2025).</p>
+            </div>
+          </li>
+          <li>
+            <span class="badge">🏆</span>
+            <div>
+              <strong>Science Exhibition Winner</strong>
+              <p>Won Best Project Award at the Inter-School Science Exhibition for a working solar model (2024).</p>
+            </div>
+          </li>
+          <li>
+            <span class="badge">🎖️</span>
+            <div>
+              <strong>Academic Excellence Award</strong>
+              <p>Awarded for outstanding academic performance with 90%+ in Class 12 Board Exams (2025).</p>
+            </div>
+          </li>
+          <li>
+            <span class="badge">💡</span>
+            <div>
+              <strong>Hackathon Participant</strong>
+              <p>Participated in a college-level hackathon and built a prototype in under 24 hours (2026).</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section class="section" id="certificates">
+      <div class="section-header">
+        <i class="fa-solid fa-certificate section-icon"></i>
+        <h2>Certificates</h2>
+      </div>
+      <div class="section-body">
+        <div class="cert-grid">
+
+          <div class="cert-card">
+            <div class="cert-icon">📜</div>
+            <div class="cert-info">
+              <h3>Python for Beginners</h3>
+              <p class="cert-issuer"><i class="fa-brands fa-python"></i> Coursera &nbsp;|&nbsp; 2025</p>
+              <p class="cert-desc">Completed a beginner-level Python programming course covering data types, loops, functions, and basic OOP.</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">📜</div>
+            <div class="cert-info">
+              <h3>Web Development Fundamentals</h3>
+              <p class="cert-issuer"><i class="fa-brands fa-html5"></i> Udemy &nbsp;|&nbsp; 2025</p>
+              <p class="cert-desc">Learned the fundamentals of HTML5, CSS3, and responsive web design to create modern websites.</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">📜</div>
+            <div class="cert-info">
+              <h3>Introduction to Databases</h3>
+              <p class="cert-issuer"><i class="fa-solid fa-database"></i> NPTEL &nbsp;|&nbsp; 2026</p>
+              <p class="cert-desc">Completed NPTEL course covering SQL, relational databases, ER diagrams, and normalization concepts.</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">📜</div>
+            <div class="cert-info">
+              <h3>Google Digital Garage</h3>
+              <p class="cert-issuer"><i class="fa-brands fa-google"></i> Google &nbsp;|&nbsp; 2026</p>
+              <p class="cert-desc">Earned certification in Fundamentals of Digital Marketing from Google's official learning platform.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>Made with <span class="heart">❤️</span> by Riya Agrawal &nbsp;|&nbsp; 2026</p>
+    <div class="socials">
+      <a href="#" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#" title="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="#" title="Email"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </footer>
+
+</body>
+</html>
